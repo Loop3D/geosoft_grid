@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gmd:MD_Metadata xsi:schemaLocation="http://www.isotc211.org/2005/gmd ../schemas/iso19139fra/gmd/gmd.xsd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:map="urn:brgm:mapping" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:gml="http://www.opengis.net/gml" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gfc="http://www.isotc211.org/2005/gfc" xmlns:gco="http://www.isotc211.org/2005/gco">
+	<geosoft xmlns="http://www.geosoft.com/schema/geo">
+		<dataset version="1">
+			<title>test_uncompressed</title>
+			<file_format>Geosoft Grid</file_format>
+			<project_name>d:\dropbox\loop_minex\geosoft_grid\test.gpf</project_name>
+			<data_created_by>DEP35607\mark</data_created_by>
+			<data_creation_date>2022-11-10</data_creation_date>
+			<metadata_created_by>DEP35607\mark</metadata_created_by>
+			<metadata_creation_date>2022-11-10</metadata_creation_date>
+			<lineage>
+				<process name="gridwind.gx" displaystring="GRIDWIND" user="DEP35607\mark" version="Version 2022.1 (20220602.26)" date="2022-11-10" time="09:29:56">
+					<parameter name="GRIDWIND::CLIP" value="DUMMIED" type="string"/>
+					<parameter name="GRIDWIND::COORD" value="GROUND" type="string"/>
+					<parameter name="GRIDWIND::CSIZE" value="" type="string"/>
+					<parameter name="GRIDWIND::DEC" value="" type="string"/>
+					<parameter name="GRIDWIND::GRD" value="..\..\SAXI_GIS\country\brasil\country_bra_airborne_geophysics\#ne_brazil_mag_stitch_1km\AM_SIRGAS2000_LL_Cellsize1km.grd(GRD)" type="string"/>
+					<parameter name="GRIDWIND::NEW" value=".\test_uncompressed.grd(GRD)" type="string"/>
+					<parameter name="GRIDWIND::XMAX" value="-37.67633824" type="double"/>
+					<parameter name="GRIDWIND::XMIN" value="-40.47606652" type="double"/>
+					<parameter name="GRIDWIND::YMAX" value="-6.007314325" type="double"/>
+					<parameter name="GRIDWIND::YMIN" value="-8.457076577" type="double"/>
+					<parameter name="GRIDWIND::ZMAX" value="" type="string"/>
+					<parameter name="GRIDWIND::ZMIN" value="" type="string"/>
+					<source name="d:\Dropbox\SAXI_GIS\country\brasil\country_bra_airborne_geophysics\#ne_brazil_mag_stitch_1km\AM_SIRGAS2000_LL_Cellsize1km.grd" type="GRID">
+						<lineage>
+							<process name="gridmask.gx" displaystring="GRIDMASK" user="Raphael Teixeira Corrêa" version="Version 9.1.2 (20170227.690)" date="2018-06-08" time="12:28:14">
+								<parameter name="GRIDMASK::GRDIN" value="..\..\Mag Brasil\mag_integrados\integrados_magbrasil_LL.GRD(GRD)" type="string"/>
+								<parameter name="GRIDMASK::GRDOUT" value="F:\Mag_Integrated\AM_SIRGAS2000_LL_Cellsize1km.grd(GRD)" type="string"/>
+								<parameter name="GRIDMASK::MASKOPT" value="OUTSIDE" type="string"/>
+								<parameter name="GRIDMASK::POLY" value="F:\Mag_Integrated\SAXI_AREA.ply" type="string"/>
+								<parameter name="GRIDMASK::RESIZE" value="YES" type="string"/>
+								<source name="e:\bacia dos parecis\Maps\__gmasktmp.grd" type="GRID"/>
+								<source name="e:\Mag Brasil\mag_integrados\integrados_magbrasil_LL.GRD" type="GRID"/>
+							</process>
+						</lineage>
+					</source>
+				</process>
+			</lineage>
+			<georeference>
+				<dataextents>
+					<extent2d minx="-40.46822" miny="-8.45502" maxx="-37.66952" maxy="-6.00002"/>
+				</dataextents>
+				<projection type="GEOGRAPHIC" name="WGS 84" ellipsoid="WGS 84" datum="WGS 84" wellknown_epsg="4326" datumtrf="WGS 84" datumtrf_description="[WGS 84] World" radius="6378137" eccentricity="0.0818191908426215">
+					<shift x="0" y="0" z="0"/>
+					<units name="dega" unit_scale="1"/>
+				</projection>
+			</georeference>
+		</dataset>
+	</geosoft>
+	<gmd:dataQualityInfo>
+		<gmd:DQ_DataQuality>
+			<gmd:lineage>
+				<gmd:LI_Lineage>
+					<gmd:processStep xlink:type="Geosoft Process" xlink:title="gridwind.gx">
+						<gmd:LI_ProcessStep>
+							<gmd:dateTime>
+								<gco:DateTime>2022-11-10T09:29:56</gco:DateTime>
+							</gmd:dateTime>
+							<gmd:processor>
+								<gmd:CI_ResponsibleParty>
+									<gmd:individualName>
+										<gco:CharacterString>DEP35607\mark</gco:CharacterString>
+									</gmd:individualName>
+								</gmd:CI_ResponsibleParty>
+							</gmd:processor>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDWIND::CLIP" xlink:title="DUMMIED">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDWIND::COORD" xlink:title="GROUND">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDWIND::CSIZE" xlink:title="">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDWIND::DEC" xlink:title="">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDWIND::GRD" xlink:title="..\..\SAXI_GIS\country\brasil\country_bra_airborne_geophysics\#ne_brazil_mag_stitch_1km\AM_SIRGAS2000_LL_Cellsize1km.grd(GRD)">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDWIND::NEW" xlink:title=".\test_uncompressed.grd(GRD)">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDWIND::XMAX" xlink:title="-37.67633824">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDWIND::XMIN" xlink:title="-40.47606652">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDWIND::YMAX" xlink:title="-6.007314325">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDWIND::YMIN" xlink:title="-8.457076577">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDWIND::ZMAX" xlink:title="">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Parameter" xlink:role="GRIDWIND::ZMIN" xlink:title="">
+								<gmd:LI_Source/>
+							</gmd:source>
+							<gmd:source xlink:type="Data Source" xlink:role="GRID" xlink:title="d:\Dropbox\SAXI_GIS\country\brasil\country_bra_airborne_geophysics\#ne_brazil_mag_stitch_1km\AM_SIRGAS2000_LL_Cellsize1km.grd">
+								<gmd:LI_Source/>
+							</gmd:source>
+						</gmd:LI_ProcessStep>
+					</gmd:processStep>
+				</gmd:LI_Lineage>
+			</gmd:lineage>
+		</gmd:DQ_DataQuality>
+	</gmd:dataQualityInfo>
+	<gmd:identificationInfo>
+		<gmd:MD_DataIdentification>
+			<gmd:citation>
+				<gmd:CI_Citation>
+					<gmd:title>
+						<gco:CharacterString>test_uncompressed</gco:CharacterString>
+					</gmd:title>
+					<gmd:collectiveTitle>
+						<gco:CharacterString>d:\dropbox\loop_minex\geosoft_grid\test.gpf</gco:CharacterString>
+					</gmd:collectiveTitle>
+					<gmd:date>
+						<gmd:CI_Date>
+							<gmd:date>
+								<gco:Date>2022-11-10</gco:Date>
+							</gmd:date>
+						</gmd:CI_Date>
+					</gmd:date>
+				</gmd:CI_Citation>
+			</gmd:citation>
+			<gmd:resourceFormat>
+				<gmd:MD_Format>
+					<gmd:name>
+						<gco:CharacterString>Geosoft Grid</gco:CharacterString>
+					</gmd:name>
+				</gmd:MD_Format>
+			</gmd:resourceFormat>
+			<gmd:pointOfContact>
+				<gmd:CI_ResponsibleParty>
+					<gmd:individualName>
+						<gco:CharacterString>DEP35607\mark</gco:CharacterString>
+					</gmd:individualName>
+				</gmd:CI_ResponsibleParty>
+			</gmd:pointOfContact>
+			<gmd:extent>
+				<gmd:EX_Extent>
+					<gmd:geographicElement>
+						<gmd:EX_GeographicBoundingBox>
+							<gmd:westBoundLongitude>
+								<gco:Decimal>-40.46822</gco:Decimal>
+							</gmd:westBoundLongitude>
+							<gmd:eastBoundLongitude>
+								<gco:Decimal>-37.66952</gco:Decimal>
+							</gmd:eastBoundLongitude>
+							<gmd:southBoundLatitude>
+								<gco:Decimal>-8.45502</gco:Decimal>
+							</gmd:southBoundLatitude>
+							<gmd:northBoundLatitude>
+								<gco:Decimal>-6.00002</gco:Decimal>
+							</gmd:northBoundLatitude>
+						</gmd:EX_GeographicBoundingBox>
+					</gmd:geographicElement>
+				</gmd:EX_Extent>
+			</gmd:extent>
+		</gmd:MD_DataIdentification>
+	</gmd:identificationInfo>
+	<gmd:contact>
+		<gmd:CI_ResponsibleParty>
+			<gmd:individualName>
+				<gco:CharacterString>DEP35607\mark</gco:CharacterString>
+			</gmd:individualName>
+		</gmd:CI_ResponsibleParty>
+	</gmd:contact>
+	<gmd:dateStamp>
+		<gco:Date>2022-11-10</gco:Date>
+	</gmd:dateStamp>
+	<gmd:referenceSystemInfo>
+		<gmd:MD_ReferenceSystem>
+			<gmd:referenceSystemIdentifier>
+				<gmd:RS_Identifier>
+					<gmd:codeSpace>
+						<gco:CharacterString>ESRI</gco:CharacterString>
+					</gmd:codeSpace>
+					<gmd:code>
+						<gco:CharacterString>GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433],AUTHORITY["EPSG",4326]]</gco:CharacterString>
+					</gmd:code>
+					<gmd:version>
+						<gco:CharacterString>1</gco:CharacterString>
+					</gmd:version>
+				</gmd:RS_Identifier>
+			</gmd:referenceSystemIdentifier>
+		</gmd:MD_ReferenceSystem>
+	</gmd:referenceSystemInfo>
+</gmd:MD_Metadata>
