@@ -8,4 +8,4 @@ Doesn't handle everything yet:
 - Could parse XML if present for CRS info
 - Could parse .gi file for CRS and other info if I had format...
    
-Test data from CPRM Open Access geophsysical data server https://geosgb.cprm.gov.br/geosgb/downloads.html
+Test data from CPRM Open Access geophysical data server https://geosgb.cprm.gov.br/geosgb/downloads.html
