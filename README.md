@@ -1,6 +1,8 @@
 ## Code to convert geosoft grids to geotiffs based on info at:
 
-https://help.seequent.com/Oasis-montaj/9.9/en/Content/ss/process_data/grid_data/c/geosoft_grid_file_format.htm plus info that compression is in fact zlib not LZRW1 regardless of what COMP_TYPE says!
+https://help.seequent.com/Oasis-montaj/9.9/en/Content/ss/process_data/grid_data/c/geosoft_grid_file_format.htm plus info that compression is in fact zlib not LZRW1 regardless of what COMP_TYPE says! (Thanks Evren Pakyuz-Charrier).
+
+## Future development of this code has been taken up by Fatiando starting with: https://github.com/fatiando/harmonica/pull/348#issuecomment-1315965084    
 
 Doesn't handle everything yet:      
 - Should check data type in ES & SF and handle data types accordingly
