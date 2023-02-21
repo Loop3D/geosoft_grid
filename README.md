@@ -12,6 +12,6 @@ Usage: python grd2geotiff.py input_grid_path [string] epsg [int]
 From CPRM Open Access geophysical data server https://geosgb.cprm.gov.br/geosgb/downloads.html
 
 ### Requirements:
-numpy
-xarray
-rasterio
+numpy   
+xarray   
+rasterio   
