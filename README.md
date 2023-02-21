@@ -2,12 +2,9 @@
 
 https://help.seequent.com/Oasis-montaj/9.9/en/Content/ss/process_data/grid_data/c/geosoft_grid_file_format.htm plus info that compression is in fact zlib not LZRW1 regardless of what COMP_TYPE says! (Thanks Evren Pakyuz-Charrier).
 
-## Future development of this code has been taken up by Fatiando: https://github.com/fatiando/harmonica/blob/main/harmonica/_io/oasis_montaj_grd.py 
+## Current development of this code has been taken up by Fatiando: https://github.com/fatiando/harmonica/blob/main/harmonica/_io/oasis_montaj_grd.py 
 
-Doesn't handle everything yet:      
-- Should check data type in ES & SF and handle data types accordingly
-- Could write tif->grd as well?
-- Could parse XML if present for CRS info
-- Could parse .gi file for CRS and other info if I had format...
+Also available here as command line version, usage python   
+Usage: python grd2geotiff.py input_grid_path epsg   
    
 Test data from CPRM Open Access geophysical data server https://geosgb.cprm.gov.br/geosgb/downloads.html
