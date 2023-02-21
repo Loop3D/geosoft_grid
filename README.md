@@ -8,5 +8,5 @@ https://github.com/fatiando/harmonica/blob/main/harmonica/_io/oasis_montaj_grd.p
 ### Also available here as command line version, usage python   
 Usage: python grd2geotiff.py input_grid_path epsg   
    
-T###est data
+### Test data
 From CPRM Open Access geophysical data server https://geosgb.cprm.gov.br/geosgb/downloads.html
