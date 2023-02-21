@@ -6,7 +6,7 @@ https://help.seequent.com/Oasis-montaj/9.9/en/Content/ss/process_data/grid_data/
 https://github.com/fatiando/harmonica/blob/main/harmonica/_io/oasis_montaj_grd.py 
 
 ### Also available here as command line version, usage python   
-Usage: python grd2geotiff.py input_grid_path epsg   
+Usage: python grd2geotiff.py input_grid_path [string] epsg [int]
    
 ### Test data
 From CPRM Open Access geophysical data server https://geosgb.cprm.gov.br/geosgb/downloads.html
