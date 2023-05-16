@@ -5,6 +5,9 @@ https://help.seequent.com/Oasis-montaj/9.9/en/Content/ss/process_data/grid_data/
 ### Current development of this code has been taken up by Fatiando:    
 https://github.com/fatiando/harmonica/blob/main/harmonica/_io/oasis_montaj_grd.py 
 
+### Also available as a QGIS Plugin here:    
+https://github.com/Loop3D/grd_loader   
+
 ### Also available here as command line version:   
 Usage: python grd2geotiff.py input_grid_path [string] epsg [int]
    
